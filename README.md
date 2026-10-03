@@ -1,14 +1,14 @@
 # WarehouseXpert
 
-I built WarehouseXpert as a virtual warehouse console for testing material flow from reserve, through shared picking, to point of use.
+WarehouseXpert is a virtual warehouse model for following material from reserve, through a shared pick lane, to point of use. The workspace includes scenarios, simulation runs, performance signals, comparisons, and decision replay.
 
-## Build decisions
+## Compare a change
 
-I organized the work around a repeatable comparison: clone a scenario, change its assumptions, run it, and compare the outcomes. Keeping the scenario, run history, and decision evidence together makes it easier to see what changed between runs.
+Clone a scenario, change an assumption, run it, and compare the result with another run. The replay follows the point where two strategies diverge, keeping the assumption and its evidence with the outcome. Scenario data stays on the device.
 
-This repository contains project notes and links, not application source.
+This public repository contains project notes and links, not application source. The public interface describes the product as model-based and local-data-first; these notes do not guess at a framework or backend stack.
 
 ## Links
 
 - [WarehouseXpert](https://warexpert.app)
-- [Portfolio project notes](https://portfolio.aerovisus.com/#warehousexpert)
+- [Portfolio notes](https://portfolio.aerovisus.com/#warehousexpert)
